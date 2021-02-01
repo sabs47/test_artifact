@@ -1,5 +1,6 @@
-- src: https://github.com/sabs47/test_role_app.git
-  name: test_role_app
-  scm:  git
-  version: master
+- src: yatesr.timezone
+#https://github.com/sabs47/test_role_app.git
+  #name: test_role_app
+  #scm:  git
+  #version: master
 
