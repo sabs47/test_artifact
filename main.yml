@@ -1,8 +1,4 @@
----
-- name: Hello World!
-  hosts: all
+- hosts: all
  
-  tasks:
- 
-  - name: Hello World!
-    shell: echo "Hi! Tower is working."
+  roles:
+    - test_role_app
