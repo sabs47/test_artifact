@@ -1,4 +1,8 @@
 - hosts: all
+  vars:
+    state: present
+  
+  
   roles: 
     - test_role_app
     
