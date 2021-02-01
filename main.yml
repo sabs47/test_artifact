@@ -1,4 +1,13 @@
-- hosts: all
+#- hosts: all
  
-  roles:
-    - test_role_app
+ # roles:
+  #  - test_role_app
+ 
+ ---
+- name: Hello World!
+  hosts: all
+ 
+  tasks:
+ 
+  - name: Hello World!
+    shell: echo "Hi! Tower is working. sabs"
