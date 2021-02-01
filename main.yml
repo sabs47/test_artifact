@@ -1,9 +1,4 @@
-#- hosts: all
- 
- # roles:
-  #  - test_role_app
- 
- ---
+---
 - name: Hello World!
   hosts: all
  
